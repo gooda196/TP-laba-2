@@ -1,7 +1,7 @@
 #include "sdt.h"
 int main()
 {
-    double a,b,sum,raz;
+    double a,b,sum,raz,del;
     cout <<"Vvedite chislo a:" ;
     cin >> a;
     cout <<"Vvedite chislo b:" ;
@@ -10,4 +10,6 @@ int main()
    cout << "Summa = "<<sum<<".\n";
    raz=a-b;
     cout << "Raznica = "<<raz<<".\n";
+ del=a/b;
+ cout << "Delenie = "<<del<<".\n";
 }
